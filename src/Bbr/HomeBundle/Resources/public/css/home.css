@@ -1,0 +1,54 @@
+<!--
+body{ 
+	font-family: Impact, Franklin gothic medium, Verdana, Geneva, Arial;
+	height:98%;
+}
+.main{
+	margin:0 -8px 0 -8px;
+	height:100%;
+}
+/** header start **/
+.header{ 
+	margin:0;
+	padding: 10px 0 10px 255px;width:auto;height:130px;
+	border-top:10px solid black;border-bottom:10px solid black;
+	background-image:url('../images/logo_site_1000fois.bmp');background-repeat:no-repeat;
+}
+.header .right{ float:right;margin-right:10%;}
+.header .cat{ width:100%;}
+.header .car ul{ margin-left:auto;list-style:none;}
+.header .cat li{ float:left;margin-left:20px;list-style:none;}
+.header .cat li a{ display:block;width:100px;height:65px;background-repeat:no-repeat;text-decoration:none;}
+
+.header .cat li a.connection{ background-image:url('../images/connexion_off.png');}
+.header .cat li a.connection:hover { background-image:url('../images/connexion_on.png');}
+
+.header .cat li a.register{ background-image:url('../images/enregistrer_off.png');}
+.header .cat li a.register:hover { background-image:url('../images/enregistrer_on.png');}
+
+.header .cat li a.price{ background-image:url('../images/prix_off.png');}
+.header .cat li a.price:hover { background-image:url('../images/prix_on.png');}
+
+.header .cat li a.contact{ background-image:url('../images/contact_off.png');}
+.header .cat li a.contact:hover { background-image:url('../images/contact_on.png');}
+
+.header .cat li a.about{ background-image:url('../images/apropos_off.png');}
+.header .cat li a.about:hover { background-image:url('../images/apropos_on.png');}
+/** header end **/
+
+/** footer start **/
+.footer{ margin:0;}
+.footer .link{ padding:3px 0;background-color:#383431;}
+.footer .link ul{ text-align:center;} 
+.footer .link ul li{ list-style:none;display:inline;} 
+.footer .link li a{ font-weight:bold;color:white;text-decoration:none;font-size:14px;}
+.footer .link .sep{ color:#5a5754;text-decoration:none;font-size:14px;margin:0 10px;}
+
+.footer .copyright{ background-color:#1f1a17;color:#766b59;font-size:13px;padding:3px 0; text-align:center;}
+.footer .copyright b{ color:white;font-weight:bold;}
+/** footer end **/
+
+/** container start **/
+.content{ min-height: 73%;height: auto !important; height: 73%; margin: 0 auto;}
+/** container end **/
+-->

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+		<link rel="stylesheet" type="text/css" href="{{ asset('bundles/bbrhome/css/home.css') }}" />
+	</head>
+	<body>
+		<div class="header">
+			<div class="logo">&nbsp;</div>
+			<div class="right">
+				<div class="cat">
+					<ul >
+						<li><a class="connection" href="#">&nbsp;</a></li>
+						<li><a class="register" href="#">&nbsp;</a></li>
+						<li><a class="price" href="#" >&nbsp;</a></li>
+						<li><a class="contact" href="#">&nbsp;</a></li>
+						<li><a class="about" href="#">&nbsp;</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="content">
+			{% block content %}
+			{% endblock %}
+			<div class="push"></div>
+		</div>
+		<div class="footer">
+			<div class="link">
+				<ul>
+					<li><a href="#">Accueil</a></li>
+					<li class="sep">|</li>
+					<li><a href="#">Le Concept</a></li>
+					<li class="sep">|</li>
+					<li><a href="#">Prix</a></li>
+					<li class="sep">|</li>
+					<li><a href="#">S'enregistrer</a></li>
+					<li class="sep">|</li>
+					<li><a href="#">Mentions Légales</a></li>
+				</ul>
+			</div>
+			<div class="copyright">
+				Copyright ® 2012 <b>1000fois.fr</b>. All Rights Reserved.
+			</div>
+		</div>
+	</body>
+</html>
