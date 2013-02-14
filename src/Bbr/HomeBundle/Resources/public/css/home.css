@@ -1,12 +1,11 @@
 <!--
-body{ 
+*{ margin:0;}
+html, body{ 
 	font-family: Impact, Franklin gothic medium, Verdana, Geneva, Arial;
-	height:98%;
-}
-.main{
-	margin:0 -8px 0 -8px;
 	height:100%;
 }
+.main{ min-height: 100%;height: auto !important;height: 100%;margin: 0 auto -2.9em;min-height:100%;}
+
 /** header start **/
 .header{ 
 	margin:0;
@@ -37,7 +36,7 @@ body{
 /** header end **/
 
 /** footer start **/
-.footer{ margin:0;}
+.footer, .push { height: 2.9em;margin:0;padding:0;}
 .footer .link{ padding:3px 0;background-color:#383431;}
 .footer .link ul{ text-align:center;} 
 .footer .link ul li{ list-style:none;display:inline;} 
@@ -49,6 +48,8 @@ body{
 /** footer end **/
 
 /** container start **/
-.content{ min-height: 73%;height: auto !important; height: 73%; margin: 0 auto;}
+/*.content{ min-height: 73%;height: auto !important; height: 73%; margin: 0 auto;}*/
+.content{ }
+.content .row{ display:block;}
 /** container end **/
 -->

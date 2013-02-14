@@ -5,24 +5,26 @@
 		<link rel="stylesheet" type="text/css" href="{{ asset('bundles/bbrhome/css/home.css') }}" />
 	</head>
 	<body>
-		<div class="header">
-			<div class="logo">&nbsp;</div>
-			<div class="right">
-				<div class="cat">
-					<ul >
-						<li><a class="connection" href="#">&nbsp;</a></li>
-						<li><a class="register" href="#">&nbsp;</a></li>
-						<li><a class="price" href="#" >&nbsp;</a></li>
-						<li><a class="contact" href="#">&nbsp;</a></li>
-						<li><a class="about" href="#">&nbsp;</a></li>
-					</ul>
+		<div class="main">
+			<div class="header">
+				<div class="logo">&nbsp;</div>
+				<div class="right">
+					<div class="cat">
+						<ul >
+							<li><a class="connection" href="./">&nbsp;</a></li>
+							<li><a class="register" href="./register">&nbsp;</a></li>
+							<li><a class="price" href="./price" >&nbsp;</a></li>
+							<li><a class="contact" href="./contact">&nbsp;</a></li>
+							<li><a class="about" href="./about">&nbsp;</a></li>
+						</ul>
+					</div>
 				</div>
 			</div>
-		</div>
-		<div class="content">
-			{% block content %}
-			{% endblock %}
-			<div class="push"></div>
+			<div class="content">
+				{% block content %}
+				{% endblock %}
+				<div class="push"></div>
+			</div>
 		</div>
 		<div class="footer">
 			<div class="link">

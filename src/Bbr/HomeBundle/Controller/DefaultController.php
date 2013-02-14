@@ -10,9 +10,22 @@ class DefaultController extends Controller
 {
     /**
      * @Route("/")
+     * @Route("/index")
+     * @Route("/price")
+     * @Route("/contact")
+     * @Route("/about")
      * @Template()
      */
     public function indexAction()
+    {
+        return array();
+    }
+	
+    /**
+     * @Route("/register")
+     * @Template()
+     */
+    public function registerAction()
     {
         return array();
     }
