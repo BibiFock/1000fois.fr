@@ -7,19 +7,9 @@
 	<body>
 		<div class="main">
 			<div class="header">
-				<div class="logo">&nbsp;</div>
-				<div class="right">
-					<div class="cat">
-						<ul >
-							<li><a class="connection" href="./">&nbsp;</a></li>
-							<li><a class="register" href="./register">&nbsp;</a></li>
-							<li><a class="price" href="./price" >&nbsp;</a></li>
-							<li><a class="contact" href="./contact">&nbsp;</a></li>
-							<li><a class="about" href="./about">&nbsp;</a></li>
-						</ul>
-					</div>
-				</div>
+				{% include 'BbrHomeBundle::header.html.twig' %}
 			</div>
+			<div class="clear"></div>
 			<div class="content">
 				{% block content %}
 				{% endblock %}
@@ -27,22 +17,7 @@
 			</div>
 		</div>
 		<div class="footer">
-			<div class="link">
-				<ul>
-					<li><a href="#">Accueil</a></li>
-					<li class="sep">|</li>
-					<li><a href="#">Le Concept</a></li>
-					<li class="sep">|</li>
-					<li><a href="#">Prix</a></li>
-					<li class="sep">|</li>
-					<li><a href="#">S'enregistrer</a></li>
-					<li class="sep">|</li>
-					<li><a href="#">Mentions Légales</a></li>
-				</ul>
-			</div>
-			<div class="copyright">
-				Copyright ® 2012 <b>1000fois.fr</b>. All Rights Reserved.
-			</div>
+			{% include 'BbrHomeBundle::footer.html.twig' %}
 		</div>
 	</body>
 </html>

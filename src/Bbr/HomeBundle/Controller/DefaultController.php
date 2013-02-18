@@ -8,17 +8,14 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
 
 class DefaultController extends Controller
 {
+
     /**
-     * @Route("/")
-     * @Route("/index")
-     * @Route("/price")
-     * @Route("/contact")
-     * @Route("/about")
+ 	 * @Route("/{page}", defaults={"page" = "home"}, requirements={"page" = "^home|connect|register|price|contact|about$"})
      * @Template()
      */
-    public function indexAction()
-    {
-        return array();
+    public function indexAction($page)
+	{
+        return array( 'page' => $page);
     }
 	
     /**
