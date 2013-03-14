@@ -1,0 +1,11 @@
+				<div class="logo p20">
+					<a href="./" ><img src="{{ asset('bundles/bbrhome/images/logo_site_1000fois.bmp') }}" /></a>
+				</div>
+				<div class="menu p70">
+					<ul >
+						{% set menus = ['about', 'contact', 'price', 'register', 'connect'] %}
+						{% for menu in menus %}
+						<li><a class="{{ menu }} {{ menu == page ? 'select' : '' }}" href="./{{ menu }}">&nbsp;</a></li>
+						{% endfor %}
+					</ul>
+				</div>
